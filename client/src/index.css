@@ -1,0 +1,6 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy:#0b1f3a; --teal:#028090; --mint:#02c39a; --paper:#f4f8fb; --ink:#102a43; --muted:#6b7c8f; --line:#dce7ef; --red:#d64550; --shadow:0 12px 30px rgba(16,42,67,.08); }
+html { background:var(--paper); }
+body { background:radial-gradient(circle at 90% 0,rgba(2,195,154,.12),transparent 32rem),var(--paper); color:var(--ink); font-family:"Manrope","Segoe UI",sans-serif; min-height:100vh; -webkit-font-smoothing:antialiased; }
+button,input,select,textarea { font:inherit; }
+a { color:inherit; }
